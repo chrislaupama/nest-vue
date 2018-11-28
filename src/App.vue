@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-toolbar app flat>
+      <v-toolbar-side-icon></v-toolbar-side-icon>
       <v-toolbar-title class="headline text-uppercase grey--text text--darken-2">
         <span>NEST</span>
         <span class="font-weight-light">APP</span>
