@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-toolbar app flat>
-      <v-toolbar-side-icon></v-toolbar-side-icon>
+      <v-toolbar-side-icon class="grey--text text--darken-2"><v-icon>menu</v-icon></v-toolbar-side-icon>
       <v-toolbar-title class="headline text-uppercase grey--text text--darken-2">
         <span>NEST</span>
         <span class="font-weight-light">APP</span>
@@ -17,17 +17,17 @@
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <TimeLine/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-
+import TimeLine from './components/TimeLine'
 export default {
   name: 'App',
   components: {
-    //
+    TimeLine
   },
   data () {
     return {
